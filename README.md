@@ -1,5 +1,5 @@
 # BatchRename_re
-#####Migrated from `BatchRename`  
+>Migrated from `BatchRename`  
 
 Description: Rename files application - HCMUS window course project  
 
