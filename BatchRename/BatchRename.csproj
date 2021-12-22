@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\app.png" />
+    <None Remove="Assets\appbar.edit.box.png" />
+    <None Remove="Assets\appbar_add.png" />
+    <None Remove="Assets\appbar_arrow_down.png" />
+    <None Remove="Assets\appbar_arrow_up.png" />
+    <None Remove="Assets\appbar_delete.png" />
+    <None Remove="Assets\appbar_down_bottom.png" />
+    <None Remove="Assets\appbar_exclude.png" />
+    <None Remove="Assets\appbar_method_add.png" />
+    <None Remove="Assets\appbar_open.png" />
+    <None Remove="Assets\appbar_options.png" />
+    <None Remove="Assets\appbar_preview.png" />
+    <None Remove="Assets\appbar_refresh.png" />
+    <None Remove="Assets\appbar_save.png" />
+    <None Remove="Assets\appbar_start_batch.png" />
+    <None Remove="Assets\appbar_up_top.png" />
+    <None Remove="Assets\app_configuration.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChangeExtensionRule\ChangeExtensionRule.csproj" />
+    <ProjectReference Include="..\CounterRule\CounterRule.csproj" />
+    <ProjectReference Include="..\LowerCaseAndNoSpaceRule\LowerCaseAndNoSpaceRule.csproj" />
+    <ProjectReference Include="..\PascalCaseRule\PascalCaseRule.csproj" />
+    <ProjectReference Include="..\PrefixRule\PrefixRule.csproj" />
+    <ProjectReference Include="..\RenameLib\RenameLib.csproj" />
+    <ProjectReference Include="..\ReplaceRule\ReplaceRule.csproj" />
+    <ProjectReference Include="..\SuffixRule\SuffixRule.csproj" />
+    <ProjectReference Include="..\TrimRule\TrimRule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\app.png" />
+    <Resource Include="Assets\appbar.edit.box.png" />
+    <Resource Include="Assets\appbar_add.png" />
+    <Resource Include="Assets\appbar_arrow_down.png" />
+    <Resource Include="Assets\appbar_arrow_up.png" />
+    <Resource Include="Assets\appbar_delete.png" />
+    <Resource Include="Assets\appbar_down_bottom.png" />
+    <Resource Include="Assets\appbar_exclude.png" />
+    <Resource Include="Assets\appbar_method_add.png" />
+    <Resource Include="Assets\appbar_open.png" />
+    <Resource Include="Assets\appbar_options.png" />
+    <Resource Include="Assets\appbar_preview.png" />
+    <Resource Include="Assets\appbar_refresh.png" />
+    <Resource Include="Assets\appbar_save.png" />
+    <Resource Include="Assets\appbar_start_batch.png" />
+    <Resource Include="Assets\appbar_up_top.png" />
+    <Resource Include="Assets\app_configuration.png" />
+  </ItemGroup>
+
+</Project>
